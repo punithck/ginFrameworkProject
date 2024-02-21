@@ -2,7 +2,7 @@ package service
 
 import "ginFrameworkProject/entity"
 
-// Do not link it http service but think it as it is providing video service
+// It is not tightly related to http service. It can be used by any service. Think of it as db layer
 // It exposes interfaces, Save and FindAll function
 
 type VideoService interface {
